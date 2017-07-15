@@ -5,7 +5,7 @@ describe ('immutability', () => {
 	describe ('A List', () => {
  
 		function addMovie (currentState, movie) {
-			return currentState.update ('movies', movies => movies.push (movie)));
+			return currentState.update ('movies', movies => movies.push (movie));
 		};
 
 		it ('is immutable', () => {
